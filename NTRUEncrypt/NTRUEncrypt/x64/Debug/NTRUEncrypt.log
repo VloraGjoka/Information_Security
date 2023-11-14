@@ -1,0 +1,18 @@
+﻿  NTRUEncrypt.cpp
+C:\Users\vlorasht\Desktop\IS\NTRUEncrypt\NTRUEncrypt\NTRUEncrypt.cpp(85,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\vlorasht\Desktop\IS\NTRUEncrypt\NTRUEncrypt\NTRUEncrypt.cpp(295,31): warning C4244: 'argument': conversion from 'type' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\algorithm(5367,64): warning C4244: 'argument': conversion from '_Diff' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\include\algorithm(5444,5): message : see reference to function template instantiation 'void std::_Random_shuffle1<_RanIt,int(int)>(_RanIt,_RanIt,_RngFn (__cdecl &))' being compiled
+          with
+          [
+              _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<type>>>,
+              _RngFn=int (int)
+          ]
+C:\Users\vlorasht\Desktop\IS\NTRUEncrypt\NTRUEncrypt\NTRUEncrypt.cpp(227,5): message : see reference to function template instantiation 'void std::random_shuffle<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,int(__cdecl &)(int)>(_RanIt,_RanIt,_RngFn)' being compiled
+          with
+          [
+              _Ty=type,
+              _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<type>>>,
+              _RngFn=int (__cdecl &)(int)
+          ]
+  NTRUEncrypt.vcxproj -> C:\Users\vlorasht\Desktop\IS\NTRUEncrypt\x64\Debug\NTRUEncrypt.exe
